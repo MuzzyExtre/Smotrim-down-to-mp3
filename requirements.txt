@@ -1,0 +1,10 @@
+pydub>=0.25.0
+ffmpeg-python>=0.2.0
+mutagen>=1.45.0
+apscheduler>=3.8.0
+schedule>=1.1.0
+requests>=2.25.0
+python-telegram-bot>=13.0
+pathlib>=1.0.0
+beautifulsoup4>=4.9.0
+colorama>=0.4.4 

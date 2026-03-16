@@ -1,0 +1,24 @@
+[telegram]
+# Токен бота Telegram (получите у @BotFather)
+bot_token = "YOUR_BOT_TOKEN_HERE"
+# ID канала или группы куда отправлять подкасты (начинается с @ для публичных каналов)
+channel_id = "@YOUR_CHANNEL"
+
+[audio]
+# Максимальный размер файла в МБ для отправки в Telegram (лимит 50 МБ)
+max_file_size_mb = 50
+# Качество сжатия аудио (low, medium, high)
+compression_quality = medium
+# Задержка в минутах перед удалением временных файлов
+cleanup_delay_minutes = 5
+
+[ffmpeg]
+# Пути к FFmpeg и FFprobe (оставьте пустыми для автоматического поиска в PATH)
+ffmpeg_path = ""
+ffprobe_path = ""
+
+[logging]
+# Уровень логирования (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+log_level = INFO
+# Сохранять логи в файл (true/false)
+save_logs = true
